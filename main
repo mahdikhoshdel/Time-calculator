@@ -1,0 +1,14 @@
+n = int(input("Enter a positive integer seconds:"))
+ 
+days = n//(24*60*60)
+seconds_1 = n % (24*60*60)
+
+hours = seconds_1//(60*60)
+seconds_2 = seconds_1 % (60*60)
+
+minutes = seconds_2 // 60
+
+
+seconds = seconds_2 % 60
+
+print(days, "days", hours, "hours", minutes, "minutes", seconds, "seconds")
