@@ -1,3 +1,3 @@
-# Time-calculator
+# Time calculator
 calculate time with python
 give a number(secends) to this program to calculate that to how many days, hours, minutes and secends is this...
